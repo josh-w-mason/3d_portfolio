@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom'
 import { styles } from '../styles'
 import { navLinks } from '../constants'
 import { logo, menu, close } from '../assets'
-import { joshlogo } from '../../public/logo-J-color.svg'
 
 const Navbar = () => {
   const [active, setActive] = useState('')
@@ -21,7 +20,7 @@ const Navbar = () => {
             window.scrollTo(0, 0)
           }}
         >
-          <img src={joshlogo} alt="logo" className="w-9 h-9 object-contain" />
+          <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
         </Link>
       </div>
     </nav>
