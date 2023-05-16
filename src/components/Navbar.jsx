@@ -39,6 +39,21 @@ const Navbar = () => {
               <a href={`#${link.id}`}>{link.title}</a>
             </li>
           ))}
+          <li
+            key="linkedin"
+            className={`${
+              active === 'linkedin' ? 'text-white' : 'text-secondary'
+            } hover:text-white text-[18px] font-medium cursor-pointer`}
+            onClick={() => setActive('linkedin')}
+          >
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.linkedin.com/in/joshua-walcott-mason"
+            >
+              LinkedIn
+            </a>
+          </li>
         </ul>
         <div className="sm:hidden flex flex-1 justify-end items-center">
           <img

@@ -71,7 +71,8 @@ const Works = () => {
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
           {' '}
-          Here is some blurb about the projects I did at Dev Academy
+          Throughout my studies at Dev Academy, we were tasked with many
+          different group and solo project challenges.
         </motion.p>
       </div>
       <div className="mt-20 flex flex-wrap gap-7">

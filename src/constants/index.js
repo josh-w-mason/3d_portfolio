@@ -110,7 +110,7 @@ const experiences = [
     company_name: 'Radio New Zealand',
     icon: rnz,
     iconBg: '#F03007',
-    date: 'March 2020 - April 2021',
+    date: 'June 2020 - November 2021',
     points: [
       'Casual role helping to digitally archive RNZ’s substantial CD collection. ',
       'Meticulous data entry work ensuring music files were properly transferred across to the organisation’s servers.',
@@ -159,12 +159,11 @@ const experiences = [
 
 const testimonials = [
   {
-    testimonial:
-      'I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.',
-    name: 'Sara Lee',
-    designation: 'CFO',
-    company: 'Acme Co',
-    image: 'https://randomuser.me/api/portraits/women/4.jpg',
+    testimonial: 'Lorem ipsum something',
+    name: 'Dan Burridge',
+    designation: 'Branch Manager',
+    company: 'ACM',
+    image: 'https://randomuser.me/api/portraits/men/5.jpg',
   },
   {
     testimonial:
