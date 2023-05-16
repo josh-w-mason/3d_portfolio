@@ -13,7 +13,7 @@ import {
   nodejs,
   sqlite,
   git,
-  meta,
+  devacademy,
   starbucks,
   tesla,
   shopify,
@@ -145,9 +145,9 @@ const experiences = [
     ],
   },
   {
-    title: 'Full stack Developer',
-    company_name: 'Meta',
-    icon: meta,
+    title: 'Student',
+    company_name: 'Dev Academy Aotearoa',
+    icon: devacademy,
     iconBg: '#E6DEDD',
     date: 'Jan 2023 - Present',
     points: [
