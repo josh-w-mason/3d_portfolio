@@ -14,7 +14,7 @@ import {
   sqlite,
   git,
   devacademy,
-  starbucks,
+  rnz,
   grapes,
   moh,
   carrent,
@@ -106,16 +106,15 @@ const technologies = [
 
 const experiences = [
   {
-    title: 'React.js Developer',
-    company_name: 'Starbucks',
-    icon: starbucks,
-    iconBg: '#383E56',
+    title: 'Music Resource Assistant',
+    company_name: 'Radio New Zealand',
+    icon: rnz,
+    iconBg: '#F03007',
     date: 'March 2020 - April 2021',
     points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.',
+      'Casual role helping to digitally archive RNZ’s substantial CD collection. ',
+      'Meticulous data entry work ensuring music files were properly transferred across to the organisation’s servers.',
+      'Other administration tasks such as compiling spreadsheets for APRA, as well as having to complete timesheets and manage my own time.',
     ],
   },
   {

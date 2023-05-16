@@ -53,7 +53,7 @@ const About = () => {
         my own songs on Cubase for many years. You can listen to my electronic
         music project ‘Umbria’ on&nbsp;
         <a
-          className="underline "
+          className="underline text-orange-300"
           href="https://open.spotify.com/artist/2ADouHvtFd7r7Gl32W5Puq?si=173c799dd80e465a"
           target="_blank"
           rel="noopener noreferrer"
