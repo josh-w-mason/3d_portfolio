@@ -132,7 +132,7 @@ const experiences = [
     ],
   },
   {
-    title: 'Web Developer',
+    title: 'Advisor',
     company_name: 'Shopify',
     icon: shopify,
     iconBg: '#383E56',
@@ -149,12 +149,12 @@ const experiences = [
     company_name: 'Dev Academy Aotearoa',
     icon: devacademy,
     iconBg: '#E6DEDD',
-    date: 'Jan 2023 - Present',
+    date: 'Jan 2023 - May 2023',
     points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.',
+      '17 week program that took a small group of individuals from zero to full stack web development. We learned the key web programming languages HTML, CSS and Javascript, but also gained many important soft skills',
+      'Worked in small and large groups, giving and receiving feedback, as well as embedding software development concepts like Agile and Scrum',
+      'Git and Github pull requests and code reviews. Software quality measures such as accessibility with WAVE extension, performance and security as well as authentication via JSON web tokens',
+      'Debugging techniques in the browser and on the server',
     ],
   },
 ]
