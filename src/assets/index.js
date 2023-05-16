@@ -21,9 +21,9 @@ import typescript from './tech/typescript.png'
 import threejs from './tech/threejs.svg'
 
 import devacademy from './company/devacademy.png'
-import shopify from './company/shopify.png'
+import moh from './company/moh.png'
 import starbucks from './company/starbucks.png'
-import tesla from './company/tesla.png'
+import grapes from './company/grapes.png'
 
 import carrent from './carrent.png'
 import jobit from './jobit.png'
@@ -50,9 +50,9 @@ export {
   typescript,
   threejs,
   devacademy,
-  shopify,
+  moh,
   starbucks,
-  tesla,
+  grapes,
   carrent,
   jobit,
   tripguide,
