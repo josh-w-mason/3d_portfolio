@@ -11,10 +11,8 @@ import {
   redux,
   tailwind,
   nodejs,
-  mongodb,
+  sqlite,
   git,
-  figma,
-  docker,
   meta,
   starbucks,
   tesla,
@@ -46,7 +44,7 @@ const services = [
     icon: web,
   },
   {
-    title: 'React Native Developer',
+    title: 'Frontend Developer',
     icon: mobile,
   },
   {
@@ -93,8 +91,8 @@ const technologies = [
     icon: nodejs,
   },
   {
-    name: 'MongoDB',
-    icon: mongodb,
+    name: 'Sqlite',
+    icon: sqlite,
   },
   {
     name: 'Three JS',
@@ -103,14 +101,6 @@ const technologies = [
   {
     name: 'git',
     icon: git,
-  },
-  {
-    name: 'figma',
-    icon: figma,
-  },
-  {
-    name: 'docker',
-    icon: docker,
   },
 ]
 

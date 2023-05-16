@@ -46,13 +46,23 @@ const About = () => {
       >
         I’m a full stack developer who likes exploring new ideas and creatively
         solving problems. Through FreeCodeCamp and Dev Academy Aotearoa, I’ve
-        worked with many bits of tech including HTML, CSS, Javascript,
-        Typescript, Knex.js, Node.js, Express.js, React & Redux.⚛️🌐 Outside of
-        web tech, I’m passionate about music tech and have composed my own songs
-        on Cubase for many years. You can listen to my electronic music project
-        ‘Umbria’ on Spotify.✩♬ ₊˚.🎧⋆☾⋆⁺₊✧ I love philosophy and psychology, too
-        - what makes people tick and working out how best to spend our brief
-        time together on this planet feels pretty important to me.🌏🌌
+        worked with many pieces of tech including HTML, CSS, Javascript,
+        Typescript, Knex.js, Node.js, Express.js, React & Redux.⚛️🌐
+        <br /> <br />
+        Outside of web tech, I’m passionate about music tech and have composed
+        my own songs on Cubase for many years. You can listen to my electronic
+        music project ‘Umbria’ on&nbsp;
+        <a
+          className="underline "
+          href="https://open.spotify.com/artist/2ADouHvtFd7r7Gl32W5Puq?si=173c799dd80e465a"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Spotify ✩♬ ₊˚.🎧⋆☾⋆⁺₊✧.
+        </a>
+        <br /> <br />I love philosophy and psychology, too - what makes people
+        tick and working out how best to spend our brief time together on this
+        planet feels pretty important to me.🌏🌌
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
