@@ -25,7 +25,7 @@ import moh from './company/moh.png'
 import rnz from './company/rnz.png'
 import grapes from './company/grapes.png'
 
-import carrent from './carrent.png'
+import buddy from '../assets/screenshots/buddy-screenshot.png'
 import jobit from './jobit.png'
 import tripguide from './tripguide.png'
 
@@ -53,7 +53,7 @@ export {
   moh,
   rnz,
   grapes,
-  carrent,
+  buddy,
   jobit,
   tripguide,
 }

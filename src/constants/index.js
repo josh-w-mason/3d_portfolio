@@ -17,7 +17,7 @@ import {
   rnz,
   grapes,
   moh,
-  carrent,
+  buddy,
   jobit,
   tripguide,
   threejs,
@@ -185,25 +185,25 @@ const testimonials = [
 
 const projects = [
   {
-    name: 'Car Rent',
+    name: 'Buddy',
     description:
-      'Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.',
+      'This project was our final group project we worked on at Dev Academy, the concept of which was to create something that would help international travellers connect with local Welligtonians who wanted to help introduce them to the local culture and make friends.',
     tags: [
       {
         name: 'react',
         color: 'blue-text-gradient',
       },
       {
-        name: 'mongodb',
+        name: 'redux',
         color: 'green-text-gradient',
       },
       {
-        name: 'tailwind',
+        name: 'material UI',
         color: 'pink-text-gradient',
       },
     ],
-    image: carrent,
-    source_code_link: 'https://github.com/',
+    image: buddy,
+    source_code_link: 'https://github.com/josh-w-mason/buddy',
   },
   {
     name: 'Job IT',
