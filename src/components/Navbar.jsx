@@ -54,6 +54,21 @@ const Navbar = () => {
               LinkedIn
             </a>
           </li>
+          <li
+            key="cv"
+            className={`${
+              active === 'cv' ? 'text-white' : 'text-secondary'
+            } hover:text-white text-[18px] font-medium cursor-pointer`}
+            onClick={() => setActive('linkedin')}
+          >
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://drive.google.com/file/d/1xLZd1wLLpnp484yGa91oLE5X0iGjbOb9/view?usp=sharing"
+            >
+              CV
+            </a>
+          </li>
         </ul>
         <div className="sm:hidden flex flex-1 justify-end items-center">
           <img
