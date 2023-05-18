@@ -11,18 +11,16 @@ import {
   redux,
   tailwind,
   nodejs,
-  mongodb,
+  sqlite,
   git,
-  figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
+  devacademy,
+  rnz,
+  grapes,
+  moh,
+  buddy,
   threejs,
+  todo,
+  blog,
 } from '../assets'
 
 export const navLinks = [
@@ -46,7 +44,7 @@ const services = [
     icon: web,
   },
   {
-    title: 'React Native Developer',
+    title: 'Frontend Developer',
     icon: mobile,
   },
   {
@@ -54,7 +52,7 @@ const services = [
     icon: backend,
   },
   {
-    title: 'Content Creator',
+    title: 'Music Producer',
     icon: creator,
   },
 ]
@@ -93,8 +91,8 @@ const technologies = [
     icon: nodejs,
   },
   {
-    name: 'MongoDB',
-    icon: mongodb,
+    name: 'Sqlite',
+    icon: sqlite,
   },
   {
     name: 'Three JS',
@@ -104,79 +102,68 @@ const technologies = [
     name: 'git',
     icon: git,
   },
-  {
-    name: 'figma',
-    icon: figma,
-  },
-  {
-    name: 'docker',
-    icon: docker,
-  },
 ]
 
 const experiences = [
   {
-    title: 'React.js Developer',
-    company_name: 'Starbucks',
-    icon: starbucks,
-    iconBg: '#383E56',
-    date: 'March 2020 - April 2021',
+    title: 'Music Resource Assistant',
+    company_name: 'Radio New Zealand',
+    icon: rnz,
+    iconBg: '#F03007',
+    date: 'June 2020 - November 2021',
     points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.',
+      'Casual role helping to digitally archive RNZ’s substantial CD collection. ',
+      'Meticulous data entry work ensuring music files were properly transferred across to the organisation’s servers.',
+      'Other administration tasks such as compiling spreadsheets for APRA, as well as having to complete timesheets and manage my own time.',
     ],
   },
   {
-    title: 'React Native Developer',
-    company_name: 'Tesla',
-    icon: tesla,
+    title: 'General labourer',
+    company_name: 'Alandale Orchards & Seifried Estates',
+    icon: grapes,
     iconBg: '#E6DEDD',
-    date: 'Jan 2021 - Feb 2022',
+    date: 'Feb 2022 - Sep 2022',
     points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.',
+      'Short seasonal contract roles in the Nelson area viticulture sector, carrying out various physical labour duties.',
+      'Jobs included removing nets, chopping out dead grape trees, stacking boxes onto pallets at assembly line speed, operating the depalletizer machine, planting new plants.',
+      'High level of physical fitness required, as well as great communication skills and special attention to health and safety practises when dealing with bottling machinery.',
     ],
   },
   {
-    title: 'Web Developer',
-    company_name: 'Shopify',
-    icon: shopify,
+    title: 'Advisor',
+    company_name: 'Ministry of Health',
+    icon: moh,
     iconBg: '#383E56',
-    date: 'Jan 2022 - Jan 2023',
+    date: 'Nov 2022 - Dec 2023',
     points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
+      'Temp role for the Official Information Act team where I case managed multiple requests from the public. Required exceptional time management skills and personal responsibility to ensure the sign off process was correctly adhered to and a response was issued within 20 working days.',
+      "Proactive communication skills: I would need to find Subject Matter Experts, relevant managers, liaise with third party organisations such as Pharmac or other government departments, as well as the Minister's Office.",
       'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.',
+      'High-responsibility role that involved precise attention to detail to ensure any sensitive information was redacted before my response was issued to the requestor.',
     ],
   },
   {
-    title: 'Full stack Developer',
-    company_name: 'Meta',
-    icon: meta,
+    title: 'Student',
+    company_name: 'Dev Academy Aotearoa',
+    icon: devacademy,
     iconBg: '#E6DEDD',
-    date: 'Jan 2023 - Present',
+    date: 'Jan 2023 - May 2023',
     points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.',
+      '17 week program that took a small group of individuals from zero to full stack web development. We learned the key web programming languages HTML, CSS and Javascript, but also gained many important soft skills',
+      'Worked in small and large groups, giving and receiving feedback, as well as embedding software development concepts like Agile and Scrum',
+      'Git and Github pull requests and code reviews. Software quality measures such as accessibility with WAVE extension, performance and security as well as authentication via JSON web tokens',
+      'Debugging techniques in the browser and on the server',
     ],
   },
 ]
 
 const testimonials = [
   {
-    testimonial:
-      'I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.',
-    name: 'Sara Lee',
-    designation: 'CFO',
-    company: 'Acme Co',
-    image: 'https://randomuser.me/api/portraits/women/4.jpg',
+    testimonial: 'Lorem ipsum something',
+    name: 'Dan Burridge',
+    designation: 'Branch Manager',
+    company: 'ACM',
+    image: 'https://randomuser.me/api/portraits/men/5.jpg',
   },
   {
     testimonial:
@@ -198,33 +185,33 @@ const testimonials = [
 
 const projects = [
   {
-    name: 'Car Rent',
+    name: 'Buddy',
     description:
-      'Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.',
+      'This project was our final group project we worked on at Dev Academy, the concept of which was to create something that would help international travellers connect with local Welligtonians who wanted to help introduce them to the local culture and make friends.',
     tags: [
       {
         name: 'react',
         color: 'blue-text-gradient',
       },
       {
-        name: 'mongodb',
+        name: 'redux',
         color: 'green-text-gradient',
       },
       {
-        name: 'tailwind',
+        name: 'material UI',
         color: 'pink-text-gradient',
       },
     ],
-    image: carrent,
-    source_code_link: 'https://github.com/',
+    image: buddy,
+    source_code_link: 'https://github.com/josh-w-mason/buddy',
   },
   {
-    name: 'Job IT',
+    name: 'Full stack to-do list',
     description:
-      'Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.',
+      'This was a solo coding challenge towards the end of the course, whereby we had to make and deploy a basic CRUD app that implemented all of our learnings right through the full stack.',
     tags: [
       {
-        name: 'react',
+        name: 'redux',
         color: 'blue-text-gradient',
       },
       {
@@ -232,33 +219,33 @@ const projects = [
         color: 'green-text-gradient',
       },
       {
-        name: 'scss',
+        name: 'express',
         color: 'pink-text-gradient',
       },
     ],
-    image: jobit,
-    source_code_link: 'https://github.com/',
+    image: todo,
+    source_code_link: 'https://github.com/josh-w-mason/full-stack-todo',
   },
   {
-    name: 'Trip Guide',
+    name: 'Foundations Blog',
     description:
-      'A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.',
+      'During the first phase of the course (Foundations) we worked on basic Javascript kata, DOM manipulation challenges and built a simple blog to house our human skills reflections.',
     tags: [
       {
-        name: 'nextjs',
+        name: 'html',
         color: 'blue-text-gradient',
       },
       {
-        name: 'supabase',
+        name: 'CSS',
         color: 'green-text-gradient',
       },
       {
-        name: 'css',
+        name: 'creative writing',
         color: 'pink-text-gradient',
       },
     ],
-    image: tripguide,
-    source_code_link: 'https://github.com/',
+    image: blog,
+    source_code_link: 'https://github.com/josh-w-mason/josh-w-mason.github.io',
   },
 ]
 
