@@ -206,9 +206,9 @@ const projects = [
     source_code_link: 'https://github.com/josh-w-mason/buddy',
   },
   {
-    name: 'Job IT',
+    name: 'Show Me The Money',
     description:
-      'Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.',
+      'This was a three day group which involved a group of 10 people working to a brief. The challenge was to design an app that wou',
     tags: [
       {
         name: 'react',
