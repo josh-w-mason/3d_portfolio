@@ -26,8 +26,8 @@ import rnz from './company/rnz.png'
 import grapes from './company/grapes.png'
 
 import buddy from '../assets/screenshots/buddy-screenshot.png'
-import jobit from './jobit.png'
-import tripguide from './tripguide.png'
+import todo from '../assets/screenshots/full-stack-screenshot.png'
+import blog from '../assets/screenshots/josh-foundations-screenshot.png'
 
 export {
   logo,
@@ -54,6 +54,6 @@ export {
   rnz,
   grapes,
   buddy,
-  jobit,
-  tripguide,
+  todo,
+  blog,
 }

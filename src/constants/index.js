@@ -18,9 +18,9 @@ import {
   grapes,
   moh,
   buddy,
-  jobit,
-  tripguide,
   threejs,
+  todo,
+  blog,
 } from '../assets'
 
 export const navLinks = [
@@ -208,10 +208,10 @@ const projects = [
   {
     name: 'Show Me The Money',
     description:
-      'This was a three day group which involved a group of 10 people working to a brief. The challenge was to design an app that wou',
+      'This was a solo coding challenge towards the end of the course, whereby we had to make and deploy a basic CRUD app that implemented all of our learnings right through the full stack.',
     tags: [
       {
-        name: 'react',
+        name: 'redux',
         color: 'blue-text-gradient',
       },
       {
@@ -219,33 +219,33 @@ const projects = [
         color: 'green-text-gradient',
       },
       {
-        name: 'scss',
+        name: 'express',
         color: 'pink-text-gradient',
       },
     ],
-    image: jobit,
-    source_code_link: 'https://github.com/',
+    image: todo,
+    source_code_link: 'https://github.com/josh-w-mason/full-stack-todo',
   },
   {
-    name: 'Trip Guide',
+    name: 'Foundations Blog',
     description:
-      'A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.',
+      'During the first phase of the course (Foundations) we worked on basic Javascript kata, DOM manipulation challenges and built a simple blog to house our human skills reflections.',
     tags: [
       {
-        name: 'nextjs',
+        name: 'html',
         color: 'blue-text-gradient',
       },
       {
-        name: 'supabase',
+        name: 'CSS',
         color: 'green-text-gradient',
       },
       {
-        name: 'css',
+        name: 'creative writing',
         color: 'pink-text-gradient',
       },
     ],
-    image: tripguide,
-    source_code_link: 'https://github.com/',
+    image: blog,
+    source_code_link: 'https://github.com/josh-w-mason/josh-w-mason.github.io',
   },
 ]
 
