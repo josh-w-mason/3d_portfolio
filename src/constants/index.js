@@ -52,7 +52,7 @@ const services = [
     icon: backend,
   },
   {
-    title: 'Content Creator',
+    title: 'Music Producer',
     icon: creator,
   },
 ]
@@ -124,7 +124,7 @@ const experiences = [
     iconBg: '#E6DEDD',
     date: 'Feb 2022 - Sep 2022',
     points: [
-      'Short seasonal contract roles in the Nelson area viticulture sector, carrying out various physical labour duties',
+      'Short seasonal contract roles in the Nelson area viticulture sector, carrying out various physical labour duties.',
       'Jobs included removing nets, chopping out dead grape trees, stacking boxes onto pallets at assembly line speed, operating the depalletizer machine, planting new plants.',
       'High level of physical fitness required, as well as great communication skills and special attention to health and safety practises when dealing with bottling machinery.',
     ],
@@ -206,7 +206,7 @@ const projects = [
     source_code_link: 'https://github.com/josh-w-mason/buddy',
   },
   {
-    name: 'Show Me The Money',
+    name: 'Full stack to-do list',
     description:
       'This was a solo coding challenge towards the end of the course, whereby we had to make and deploy a basic CRUD app that implemented all of our learnings right through the full stack.',
     tags: [
