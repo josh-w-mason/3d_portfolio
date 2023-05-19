@@ -96,7 +96,43 @@ const Navbar = () => {
                 >
                   <a href={`#${link.id}`}>{link.title}</a>
                 </li>
-              ))}
+              ))}{' '}
+              <li
+                key="linkedin"
+                className={`${
+                  active === 'linkedin' ? 'text-white' : 'text-secondary'
+                } font-poppins text-[16px] font-medium cursor-pointer`}
+                onClick={() => {
+                  setToggle(!toggle)
+                  setActive('linkedin')
+                }}
+              >
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://www.linkedin.com/in/joshua-walcott-mason"
+                >
+                  LinkedIn
+                </a>
+              </li>
+              <li
+                key="cv"
+                className={`${
+                  active === 'cv' ? 'text-white' : 'text-secondary'
+                } font-poppins text-[16px] font-medium cursor-pointer`}
+                onClick={() => {
+                  setToggle(!toggle)
+                  setActive('cv')
+                }}
+              >
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://drive.google.com/file/d/1xLZd1wLLpnp484yGa91oLE5X0iGjbOb9/view?usp=sharing"
+                >
+                  CV
+                </a>
+              </li>
             </ul>
           </div>
         </div>
