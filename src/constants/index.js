@@ -134,7 +134,7 @@ const experiences = [
     company_name: 'Ministry of Health',
     icon: moh,
     iconBg: '#383E56',
-    date: 'Nov 2022 - Dec 2023',
+    date: 'Nov 2022 - Dec 2022',
     points: [
       'Temp role for the Official Information Act team where I case managed multiple requests from the public. Required exceptional time management skills and personal responsibility to ensure the sign off process was correctly adhered to and a response was issued within 20 working days.',
       "Proactive communication skills: I would need to find Subject Matter Experts, relevant managers, liaise with third party organisations such as Pharmac or other government departments, as well as the Minister's Office.",
