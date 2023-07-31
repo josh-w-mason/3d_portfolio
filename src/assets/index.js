@@ -28,6 +28,7 @@ import grapes from './company/grapes.png'
 import buddy from '../assets/screenshots/buddy-screenshot.png'
 import todo from '../assets/screenshots/full-stack-screenshot.png'
 import blog from '../assets/screenshots/josh-foundations-screenshot.png'
+import twitterClone from '../assets/screenshots/twitterCloneScreenshot.png'
 
 export {
   logo,
@@ -56,4 +57,5 @@ export {
   buddy,
   todo,
   blog,
+  twitterClone,
 }

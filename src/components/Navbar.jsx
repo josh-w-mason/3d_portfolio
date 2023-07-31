@@ -64,7 +64,7 @@ const Navbar = () => {
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="https://drive.google.com/file/d/1xLZd1wLLpnp484yGa91oLE5X0iGjbOb9/view?usp=sharing"
+              href="https://drive.google.com/file/d/1Lv0IzP1cBt2jPiFmf8XxYP5zA7jHEtOQ/view?usp=sharing"
             >
               CV
             </a>
@@ -128,7 +128,7 @@ const Navbar = () => {
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
-                  href="https://drive.google.com/file/d/1xLZd1wLLpnp484yGa91oLE5X0iGjbOb9/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1Lv0IzP1cBt2jPiFmf8XxYP5zA7jHEtOQ/view?usp=sharing"
                 >
                   CV
                 </a>

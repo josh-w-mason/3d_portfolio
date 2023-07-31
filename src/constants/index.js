@@ -21,6 +21,7 @@ import {
   threejs,
   todo,
   blog,
+  twitterClone,
 } from '../assets'
 
 export const navLinks = [
@@ -184,6 +185,28 @@ const testimonials = [
 ]
 
 const projects = [
+  {
+    name: 'Twitter clone',
+
+    description: `I built this basic Twitter style application through a Youtube tutorial as a way of learning new frameworks from the "T3 Stack", including Next Auth, Next JS, Prisma, Tailwind and tRPC. It is deployed on Vercel and uses PlanetScale for the database.`,
+    tags: [
+      {
+        name: 'Next JS',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'tRPC',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'Prisma',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: twitterClone,
+    source_code_link: 'https://github.com/josh-w-mason/twitter-clone',
+    deployedLink: 'https://twitter-clone-eta-rosy.vercel.app/',
+  },
   {
     name: 'Buddy',
     description:

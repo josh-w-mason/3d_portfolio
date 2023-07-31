@@ -13,6 +13,7 @@ const ProjectCard = ({
   tags,
   image,
   source_code_link,
+  deployedLink,
 }) => {
   return (
     <motion.div variants={fadeIn('up', 'spring', index * 0.5, 0.75)}>
@@ -44,6 +45,18 @@ const ProjectCard = ({
           {' '}
           <h3 className="text-white font-bold text-[24px]">{name}</h3>
           <p className="mt-2 text-secondary text-[14px]">{description}</p>
+          {deployedLink ? (
+            <p>
+              <a
+                href={deployedLink}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline text-orange-300"
+              >
+                View Deployed App
+              </a>
+            </p>
+          ) : null}
         </div>
         <div className="mt-4 flex flex-wrap gap-2">
           {' '}
@@ -72,7 +85,8 @@ const Works = () => {
         >
           {' '}
           Throughout my studies at Dev Academy, we were tasked with many
-          different group and solo project challenges.
+          different group and solo project challenges. Since then I&apos;ve been
+          working on my own personal projects.
         </motion.p>
       </div>
       <div className="mt-20 flex flex-wrap gap-7">
