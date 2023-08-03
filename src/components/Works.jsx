@@ -45,18 +45,6 @@ const ProjectCard = ({
           {' '}
           <h3 className="text-white font-bold text-[24px]">{name}</h3>
           <p className="mt-2 text-secondary text-[14px]">{description}</p>
-          {deployedLink ? (
-            <p>
-              <a
-                href={deployedLink}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="underline text-orange-300"
-              >
-                View Deployed App
-              </a>
-            </p>
-          ) : null}
         </div>
         <div className="mt-4 flex flex-wrap gap-2">
           {' '}

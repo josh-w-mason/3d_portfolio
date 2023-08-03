@@ -227,6 +227,7 @@ const projects = [
     ],
     image: buddy,
     source_code_link: 'https://github.com/josh-w-mason/buddy',
+    deployedLink: '',
   },
   {
     name: 'Full stack to-do list',
@@ -248,6 +249,7 @@ const projects = [
     ],
     image: todo,
     source_code_link: 'https://github.com/josh-w-mason/full-stack-todo',
+    deployedLink: '',
   },
   {
     name: 'Foundations Blog',
@@ -269,6 +271,7 @@ const projects = [
     ],
     image: blog,
     source_code_link: 'https://github.com/josh-w-mason/josh-w-mason.github.io',
+    deployedLink: '',
   },
 ]
 
