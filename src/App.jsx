@@ -6,7 +6,6 @@ import {
   Hero,
   Navbar,
   Tech,
-  Test,
   Works,
   StarsCanvas,
 } from './components'
@@ -19,11 +18,10 @@ const App = () => {
           <Navbar />
           <Hero />
         </div>
-        <About />
+        {/* <About /> */}
         <Experience />
-        <Test />
         <Works />
-        <Tech />
+        {/* <Tech /> */}
         <div className="relative z-0">
           <Contact />
           <StarsCanvas />
@@ -38,3 +36,5 @@ export default App
 // The Tech component needs fixing. Currently getting an error that says
 //"Fast refresh only works when a file only export components. Move your component(s) to a separate file.eslint(react-refresh/only-export-components)"
 // Look into this
+
+//24-08 Projects section working!! Need to retore About section, but also tech bobbles if I can be assed
