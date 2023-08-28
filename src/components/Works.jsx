@@ -35,7 +35,7 @@ const ProjectCard = ({
   return (
     <Tilt
       options={{ max: 45, scale: 1, speed: 450 }}
-      className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
+      className="bg-tertiary mb-4 p-5 rounded-2xl sm:w-[360px] w-full"
     >
       <div className="relative w-full h-[230px]">
         <img
@@ -116,7 +116,7 @@ const Works = () => {
         </p>
       </div>
       <div
-        className="mt-5 
+        className="mt-10 
         flex flex-col sm:flex-row lg:grid lg:grid-cols-3"
       >
         {' '}
@@ -125,7 +125,7 @@ const Works = () => {
             key={`project-${index}`}
             index={index}
             {...project}
-            className="w-screen sm:w-auto"
+            className="py-4 w-screen sm:w-auto"
           />
         ))}
       </div>
